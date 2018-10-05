@@ -3,7 +3,8 @@
 <p>Paragraph 1: HTML stands for HyperText Markup Language. It's the fundamental structural language of web pages.</p>
 <p>Paragraph 2: HTML is quite easy to learn. All you have to remember is to write your code carefully, making sure you open and close tags correctly. Here are two basic tags to get you started:</p>
 <h3>The heading tag</h3>
-<p>The first tag is the heading tag known as h1, or heading level 1. The code is: <code style="font-size:1.1em;">&lt;h1&gt; &lt;/h1&gt;</code>.
+<p>The first tag is the heading tag known as h1, or heading level 1. The code is: <code style="font-size:1.1em;">&lt;h1&gt; &lt;/h1&gt;</code>. 
+<br>Text is placed between two tags, like so: <code style="font-size:1.1em;">&lt;h1&gt; Text goes here &lt;/h1&gt;</code>. 
 <br>The words 'Section 1:' at the top of this section are inside the h1 tags.
 <br>To make a smaller heading, you just change the h1 to h2 in the opening and closing tags. The words 'Introduction to HTML' above are inside h2 tags. The title of this paragraph ('The heading tag') is inside h3 tags.<br>You can go from h1 all the way down to h6, which is the smallest heading size.</p>
 <h3>The paragraph tag</h3>
