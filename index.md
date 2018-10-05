@@ -78,6 +78,9 @@
 <p>Finally put a horizontal line between each section, like this:</p>
 <hr>
 <p>When you have finished, post the link to your github website on your QMplus Hub Journal.</p>
+<h3>A bit stuck?</h3>
+<p>If you are struggling to understand this, visit the W3Schools Basic HTML tutorials. There you can experiment with the tags!</p>
+<hr>
 <p>Well, that's it for now. Good luck! &#9786;</p>
 <hr>
 
