@@ -54,7 +54,7 @@
 <h2>Inserting links in your HTML</h2>
 <p>It's easy to insert a link. But before you do, it's important to understand the difference between <strong><em>relative</em></strong> and <strong><em>absolute</em></strong> links.</p>
 <h3>Absolute Links</h3>
-<p>An absolute link uses the full URL address of the page you want to link to. This is necessary if you are linking to a page outside of your own website.</p><p> For example: suppose you want to link to the W3Schools HTML Tutorial. Here is the web address: <code style="font-size:1.2em;"> https://www.w3schools.com/html/html_basic.asp</code>. And I want the link text to read: <code style="font-size:2em;">visit the W3Schools HTML tutorial</code></p>
+<p>An absolute link uses the full URL address of the page you want to link to. This is necessary if you are linking to a page outside of your own website.</p><p> For example: suppose you want to link to the W3Schools HTML Tutorial. Here is the web address: <code style="font-size:1.2em;"> https://www.w3schools.com/html/html_basic.asp</code>. And I want the link text to read: <code style="font-size:1.2em;">visit the W3Schools HTML tutorial</code></p>
 <p></p>
 <p>Here is the code for inserting this link:</p>
 <code style="font-size:1.2em;">&lt;a href="https://www.w3schools.com/html/html_basic.asp"&gt; visit the W3Schools HTML tutorial&lt;/a&gt; </code>
