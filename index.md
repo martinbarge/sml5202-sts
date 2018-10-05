@@ -7,20 +7,20 @@
 <br>The words 'Section 1:' at the top of this section are inside the h1 tags.
 <br>To make a smaller heading, you just change the h1 to h2 in the opening and closing tags. The words 'Introduction to HTML' above are inside h2 tags. The title of this paragraph ('The heading tag') is inside h3 tags.<br>You can go from h1 all the way down to h6, which is the smallest heading size.</p>
 <h3>The paragraph tag</h3>
-<p>Next is the paragraph tag, which looks like this:<code>&lt;p&gt; &lt;/p&gt;</code>. Any text between these tags will appear as a single paragraph. You can add new paragraphs easily by opening a new paragraph tag.</p><p>Here is a new paragraph. I numbered the first two paragraphs on this page to show you where each new paragraph begins.</p>
+<p>Next is the paragraph tag, which looks like this:<code style="font-size:2em;">&lt;p&gt; &lt;/p&gt;</code>. Any text between these tags will appear as a single paragraph. You can add new paragraphs easily by opening a new paragraph tag.</p><p>Here is a new paragraph. I numbered the first two paragraphs on this page to show you where each new paragraph begins.</p>
 
 <h3>Tags that do not close</h3>
-<p>Some tags do not close. E.G. The code for making a single line break is simply: <code>&lt;br&gt;</code>. The result looks like<br>this.<br>And this.<br> </p>
+<p>Some tags do not close. E.G. The code for making a single line break is simply: <code style="font-size:2em;">&lt;br&gt;</code>. The result looks like<br>this.<br>And this.<br> </p>
 
-<p>Also, the tag for making a horizontal line across the page does not close. It is simply: <code>&lt;hr&gt;</code>. The result looks like this:<hr> </p>
+<p>Also, the tag for making a horizontal line across the page does not close. It is simply: <code style="font-size:2em;">&lt;hr&gt;</code>. The result looks like this:<hr> </p>
 
 <h1>Section 2:</h1> 
 <h2>Basic text formatting with HTML</h2>
 <p>Other useful formatting tags are:</p>
   <ul>
-    <li><code>&lt;strong&gt; &lt;/strong&gt;</code> for creating <strong>bold text</strong></li>
-    <li><code>&lt;em&gt; &lt;/em&gt;</code> for creating <em>italic text</em></li>
-     <li><code>&lt;u&gt; &lt;/u&gt;</code> for creating <u>underlined text</u>. It is generally used for indicating errors (e.g. <u>rong </u>spelling)</li>
+    <li><code style="font-size:2em;">&lt;strong&gt; &lt;/strong&gt;</code> for creating <strong>bold text</strong></li>
+    <li><code style="font-size:2em;">&lt;em&gt; &lt;/em&gt;</code> for creating <em>italic text</em></li>
+     <li><code style="font-size:2em;">&lt;u&gt; &lt;/u&gt;</code> for creating <u>underlined text</u>. It is generally used for indicating errors (e.g. <u>rong </u>spelling)</li>
     </ul>
 <hr>
 <h1>Section 3:</h1> 
@@ -30,7 +30,7 @@
 
 <h3>Bullet lists</h3>
 <p>The HTML for unordered lists (bullets) is this:</p>
-<p><code>&lt;ul&gt; &lt;li&gt;First item &lt;/li&gt; &lt;li&gt;Second item &lt;/li&gt; &lt;/ul&gt;</code></p>
+<p><code style="font-size:2em;">&lt;ul&gt; &lt;li&gt;First item &lt;/li&gt; &lt;li&gt;Second item &lt;/li&gt; &lt;/ul&gt;</code></p>
 <p>Here is an example of a to-do list:</p>
 <ul>
     <li>Check my email.</li>
@@ -40,7 +40,7 @@
 
 <h3>Numbered lists</h3>
 <p>The HTML for ordered lists (numbers) is this:</p>
-<p><code>&lt;ol&gt; &lt;li&gt;First item &lt;/li&gt; &lt;li&gt;Second item &lt;/li&gt; &lt;/ol&gt;</code></p>
+<p><code style="font-size:2em;">&lt;ol&gt; &lt;li&gt;First item &lt;/li&gt; &lt;li&gt;Second item &lt;/li&gt; &lt;/ol&gt;</code></p>
 <p>Here is an example of my top three favourite books:</p>
 <ol>
     <li>A Short History of Tractors in Ukrainian.</li>
@@ -54,12 +54,12 @@
 <h2>Inserting links in your HTML</h2>
 <p>It's easy to insert a link. But before you do, it's important to understand the difference between <strong><em>relative</em></strong> and <strong><em>absolute</em></strong> links.</p>
 <h3>Absolute Links</h3>
-<p>An absolute link uses the full URL address of the page you want to link to. This is necessary if you are linking to a page outside of your own website.</p><p> For example: suppose you want to link to the W3Schools HTML Tutorial. Here is the web address: <code> https://www.w3schools.com/html/html_basic.asp</code>. And I want the link text to read: <code>visit the W3Schools HTML tutorial</code></p>
+<p>An absolute link uses the full URL address of the page you want to link to. This is necessary if you are linking to a page outside of your own website.</p><p> For example: suppose you want to link to the W3Schools HTML Tutorial. Here is the web address: <code style="font-size:2em;"> https://www.w3schools.com/html/html_basic.asp</code>. And I want the link text to read: <code style="font-size:2em;">visit the W3Schools HTML tutorial</code></p>
 <p></p>
 <p>Here is the code for inserting this link:</p>
-<code>&lt;a href="https://www.w3schools.com/html/html_basic.asp"&gt; visit the W3Schools HTML tutorial&lt;/a&gt; </code>
+<code style="font-size:2em;">&lt;a href="https://www.w3schools.com/html/html_basic.asp"&gt; visit the W3Schools HTML tutorial&lt;/a&gt; </code>
 <p>In the above code, you put the URL of the site inside double-inverted commas after href=</p>
-<p>You then write the words for the link between the &gt; and the &lt;/a&gt; tags</p>
+<p>You then write the words for the link between the <code style="font-size:2em;">&gt;</code> and the <code style="font-size:2em;">&lt;/a&gt;</code> tags</p>
 <p>Here is the result: <a href="https://www.w3schools.com/html/html_basic.asp">visit the W3Schools HTML tutorial</a> 
 
 <h3>Relative Links</h3>
