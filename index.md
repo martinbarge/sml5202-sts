@@ -77,7 +77,7 @@
     </ol>
 <p>Finally put a horizontal line between each section, like this:</p>
 <hr>
-<p>When you have finished, post the link to your github website on your QMplus Hub Journal.</p>
+<p>When you have finished, post the link to your github website on your QMplus Hub Journal.<br><strong>Hint:</strong> You can insert links to your Journal using the chain icon on the tools menu. <img src="assets/hub-insert-link.png" /></p>
 <h3>A bit stuck?</h3>
 <p>If you are struggling to understand this, visit the <a href="https://www.w3schools.com/html/html_basic.asp">W3Schools Basic HTML tutorials</a>. There you can experiment with the tags!</p>
 <hr>
