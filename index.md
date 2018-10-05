@@ -1,7 +1,13 @@
 <h1>Section 1:</h1>
 <h2>Introduction to HTML</h2>
 <p>Paragraph 1: HTML stands for HyperText Markup Language. It's the fundamental structural language of web pages.</p>
-<p>Paragraph 2: HTML is quite easy to learn. All you have to remember is to write your code carefully, making sure you open and close tags correctly. These are tags <code>&lt;h1&gt; &lt;/h1&gt;</code> <code>&lt;p&gt; &lt;/p&gt;</code>. However, some tags do not close. E.G. The code for making a single line break is <code>&lt;br&gt;</code>. It looks like<br>this.<br>And this. <br> A horizontal line is <code>&lt;hr&gt;</code>, which looks like this:<hr> </p>
+<p>Paragraph 2: HTML is quite easy to learn. All you have to remember is to write your code carefully, making sure you open and close tags correctly. Here are two basic tags to get you started:</p>
+<p>This tag creates a heading known as H1, or heading level 1: <code>&lt;h1&gt; &lt;/h1&gt;</code>. The words 'Section 1:' at the top of this section are inside the h1 tags.<br>To make a smaller heading, you just change the h1 to h2 in the opening and closing tags. You can go from h1 all the way down to h6, which is the smallest heading size.</p>
+<p>Next is the paragraph tag, which looks like this:<code>&lt;p&gt; &lt;/p&gt;</code>. Any text between these tags will appear a single paragraph. You can add new paragraphs easily by opening a new paragraph tag. I have numbered the paragraphs in this section to show you.</p>
+
+<p>However, some tags do not close. E.G. The code for making a single line break is <code>&lt;br&gt;</code>. It looks like<br>this.<br>And this. <br> </p>
+
+<p>Also, the tag for making a horizontal line across the page is: <code>&lt;hr&gt;</code>. The result looks like this:<hr> </p>
 
 <h1>Section 2:</h1> 
 <h2>Basic text formatting with HTML</h2>
