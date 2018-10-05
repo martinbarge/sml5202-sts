@@ -5,7 +5,7 @@
 <h3>The heading tag</h3>
 <p>The first tag is the heading tag known as h1, or heading level 1. The code is: <code>&lt;h1&gt; &lt;/h1&gt;</code>.
 <br>The words 'Section 1:' at the top of this section are inside the h1 tags.
-<br>To make a smaller heading, you just change the h1 to h2 in the opening and closing tags. The words 'Introduction to HTML' above are inside h2 tags.<br>You can go from h1 all the way down to h6, which is the smallest heading size.</p>
+<br>To make a smaller heading, you just change the h1 to h2 in the opening and closing tags. The words 'Introduction to HTML' above are inside h2 tags. The title of this paragraph ('The heading tag') is inside h3 tags.<br>You can go from h1 all the way down to h6, which is the smallest heading size.</p>
 <h3>The paragraph tag</h3>
 <p>Next is the paragraph tag, which looks like this:<code>&lt;p&gt; &lt;/p&gt;</code>. Any text between these tags will appear as a single paragraph. You can add new paragraphs easily by opening a new paragraph tag. I have numbered the paragraphs in this section to show you.</p>
 
@@ -26,7 +26,9 @@
 <h1>Section 3:</h1> 
 <h2>Making lists with HTML</h2>
 <p>You will notice that in Section 2 above, I used a bullet list to layout the points.</p>
-<p>There are two types of list you can make: unordered lists (bullets), and ordered lists (numbers).</p>
+<p>There are two types of list you can make: <strong>unordered lists (bullets)</strong>, and <strong>ordered lists (numbers)</strong>.</p>
+
+<h3>Bullet lists</h3>
 <p>The HTML for unordered lists (bullets) is this:</p>
 <p><code>&lt;ul&gt; &lt;li&gt;First item &lt;/li&gt; &lt;li&gt;Second item &lt;/li&gt; &lt;/ul&gt;</code></p>
 <p>Here is an example of a to-do list:</p>
@@ -35,7 +37,8 @@
     <li>Do some research.</li>
     <li>Do my homework.</li>
     </ul>
-    
+
+<h3>Numbered lists</h3>
 <p>The HTML for ordered lists (numbers) is this:</p>
 <p><code>&lt;ol&gt; &lt;li&gt;First item &lt;/li&gt; &lt;li&gt;Second item &lt;/li&gt; &lt;/ol&gt;</code></p>
 <p>Here is an example of my top three favourite books:</p>
@@ -75,6 +78,6 @@
 <p>Finally put a horizontal line between each section, like this:</p>
 <hr>
 <p>When you have finished, post the link to your github website on your QMplus Hub Journal.</p>
-<p>Good luck!</p>
+<p>Well, that's it for now. Good luck! &#9786;</p>
 <hr>
 
