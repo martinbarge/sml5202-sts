@@ -39,6 +39,9 @@
     <li>Do my homework.</li>
     </ul>
 
+<p>Here is what the code for the above looks like in HTML:</p>
+<p><code style="font-size:1.1em;">&lt;ul&gt; &lt;li&gt;Check my email. &lt;/li&gt; &lt;li&gt;Do some research &lt;/li&gt; &lt;li&gt;Do my homework.&lt;/li&gt; &lt;/ul&gt;</code>
+
 <h3>Numbered lists</h3>
 <p>The HTML for ordered lists (numbers) is this:</p>
 <p><code style="font-size:1.1em;">&lt;ol&gt; &lt;li&gt;First item &lt;/li&gt; &lt;li&gt;Second item &lt;/li&gt; &lt;/ol&gt;</code></p>
