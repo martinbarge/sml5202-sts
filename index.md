@@ -8,7 +8,7 @@
 <br>The words 'Section 1:' at the top of this section are inside the h1 tags.
 <br>To make a smaller heading, you just change the h1 to h2 in the opening and closing tags. The words 'Introduction to HTML' above are inside h2 tags. The title of this paragraph ('The heading tag') is inside h3 tags.<br>You can go from h1 all the way down to h6, which is the smallest heading size.</p>
 <h3>The paragraph tag</h3>
-<p>Next is the paragraph tag, which looks like this:<code style="font-size:1.1em;">&lt;p&gt; &lt;/p&gt;</code>. Any text between these tags will appear as a single paragraph. You can add new paragraphs easily by opening a new paragraph tag.</p><p>Here is a new paragraph. I numbered the first two paragraphs on this page to show you where each new paragraph begins.</p>
+<p>Next is the paragraph tag, which looks like this:<code style="font-size:1.1em;">&lt;p&gt; &lt;/p&gt;</code>. Again, any paragraph text is placed between the two tags, like this: <code style="font-size:1.1em;">&lt;p&gt; Text goes here &lt;/p&gt;</code>. Any text between these tags will appear as a single paragraph. You can add new paragraphs easily by opening a new paragraph tag.</p><p>Here is a new paragraph. I numbered the first two paragraphs on this page to show you where each new paragraph begins.</p>
 
 <h3>Tags that do not close</h3>
 <p>Some tags do not close. E.G. The code for making a single line break is simply: <code style="font-size:1.1em;">&lt;br&gt;</code>. The result looks like<br>this.<br>And this.<br> </p>
