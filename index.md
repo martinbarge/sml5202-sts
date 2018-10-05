@@ -82,6 +82,6 @@
 <h3>A bit stuck?</h3>
 <p>If you are struggling to understand this, visit the <a href="https://www.w3schools.com/html/html_basic.asp">W3Schools Basic HTML tutorials</a>. There you can experiment with the tags!</p>
 <hr>
-<p>Well, that's it for now. Good luck! <span style="font-size:1.5em;"&#9786;</span></p>
+<p>Well, that's it for now. Good luck! <span style="font-size:1.5em;">&#9786;</span></p>
 <hr>
 
