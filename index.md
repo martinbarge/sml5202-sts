@@ -13,7 +13,8 @@
 <h3>Tags that do not close</h3>
 <p>Some tags do not close. E.G. The code for making a single line break is simply: <code style="font-size:1.1em;">&lt;br&gt;</code>. The result looks like<br>this.<br>And this.<br> </p>
 
-<p>Also, the tag for making a horizontal line across the page does not close. It is simply: <code style="font-size:1.1em;">&lt;hr&gt;</code>. The result looks like this:<hr> </p>
+<p>Also, the tag for making a horizontal line across the page does not close. It is simply: <code style="font-size:1.1em;">&lt;hr&gt;</code>. The result looks like this:</p>
+<hr> 
 
 <h1>Section 2:</h1> 
 <h2>Basic text formatting with HTML</h2>
