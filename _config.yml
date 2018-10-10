@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 title: Learn HTML and More
 description: Simple steps to making a website
+github:
+  recipe: recipe.html
