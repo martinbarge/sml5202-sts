@@ -39,13 +39,24 @@
   </tr>
   </table>
   
-<p>The code for inserting tables is similar to that for description lists. But tables include three tags: <code>&lt;table&gt; ... &lt;/table&gt;</code>, which opens and closes the table. Then <code>&lt;tr&gt;...&lt;/tr&gt;</code>, which inserts a row into the table. Inside the <em>first</em> <b>tr</b> tag (i.e. The first table row) you insert the table header tag which will display the head for each column: <code>&lt;th&gt;...&lt;/th&gt;</code>. The humber of th tags you include determines the number of columns your table has.</p>
+<p>The code for inserting tables is similar to that for description lists. But tables include four tags, and the procedure is quite complex. Here's how it's done:</p>
   
+<p>1. The first tag: <code>&lt;table&gt;</code> opens the table. At the end of the table, the <code>&lt;/table&gt;</code>, is used to close the table.</p>
+
+<p>2. Then the <code>&lt;tr&gt;</code> tag begins a row in the table.</p> 
+
+<p>3. Next, inside the <em><b>first</b></em> <b>tr</b> tag (i.e. The first table row) you insert the <code>th</code> tag, which means <b>table header</b>. This will display the head for each column: <code>&lt;th&gt;...&lt;/th&gt;</code>. <br>The humber of th tags you include determines the number of columns your table has.</p>
+
+<p>4. After you have completed your th tags, the end of the row is closed with the <code>&lt;/tr&gt;</code> tag.</p>
+
 <p><b>For example:</b> In the first two columns of the table above, the first row code is like this: <code>&lt;tr&gt;&lt;th&gt;Infinitive&lt;/th&gt;&lt;th&gt;Past simple&lt;/th&gt;&lt;/tr&gt;</code></p>
-<p>To insert another row, use <code>&lt;tr&gt;</code>.<br>
-Then, insert cells into the row using the <code>&lt;td&gt;</code> tag, which means <b>table data</b>.<br>
+
+<p>To insert another row, use <code>&lt;tr&gt;</code> again</p>.
+
+<p>5. Then, to insert cells into the row, use the <code>&lt;td&gt;</code> tag, which means <b>table data</b>.<br>
 So, in our two column table above, we would add: <code>&lt;tr&gt;&lt;td&gt;to go&lt;/td&gt;&lt;th&gt;went&lt;/td&gt;&lt;/tr&gt;</code></p>
-<p>This may seem very complicated, so the best place to get the basic table code is, <a href="https://www.w3schools.com/tags/tag_table.asp">visit the W3Schools entry for tables</a>. Copy the code there and experiment.</p>
+
+<p>The above steps may seem very complicated, so the easiest place to find the basic table code is, <a href="https://www.w3schools.com/tags/tag_table.asp">visit the W3Schools entry for tables</a>. Copy the code there and experiment.</p>
 
 <hr>
 
