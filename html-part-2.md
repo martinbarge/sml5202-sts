@@ -6,7 +6,7 @@
 <p>The code for inserting images is: <code>&lt;img src="URL OF IMAGE" alt="DESCRIPTION OF IMAGE" &gt;</code></p>
 <p>In the example above, the image src is <code> https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg </code></p>
 <p>To access the URL for images on Wikipedia, open the image and select 'Download' and then copy the <b>File URL</b> entry, as shown in this illustration:</p>
-<a href="assets/wikimedia-europe-countries.png" alt="image showing how to get URL of Wikimedia images">View illustration</a>
+<img src="assets/wikimedia-europe-countries.png" alt="image showing how to get URL of Wikimedia images" style="width:50%;">
 
 
 <p>You will notice that the image fills the width of the content area. This is okay for this exercise. Later we will look at how to modify the width settings of the image.</p>
