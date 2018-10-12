@@ -4,7 +4,7 @@
 <p>First we will reference an image hosted on Wikipedia</p>
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe">
 <p>The code for inserting images is: <code>&lt;img src="URL OF IMAGE" alt="DESCRIPTION OF IMAGE" &gt;</code></p>
-<p>In the example above, the image src is https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg </p>
+<p>In the example above, the image src is <code> https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg </code></p>
 <p>You will notice that the image fills the width of the content area. This is okay for this exercise. Later we will look at how to modify the width settings of the image.</p>
 
 <hr>
