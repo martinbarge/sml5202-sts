@@ -1,5 +1,5 @@
 <h1>HTML Part 2: More text layouts</h1>
-<h2>Images</h2>
+<h2>1. Images</h2>
 <p>You can reference images from other web hosts, or you can upload an image to your GitHub repository and reference that.<p>
 <p>First we will reference an image hosted on Wikipedia</p>
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe">
@@ -13,7 +13,14 @@
 
 <hr>
 
-<h2>2. Description lists</h2>
+<h2>2. Superscript</h2>
+<p>Now for something easier. The superscript tag is useful for formatting the date.</p>
+<p><b>Example:</b> My birthday is on the 25<sup>th</sup> of May 2001.</p>
+<p>To make the 'th' a superscript (i.e. half the size of the numbers 25 and floating at the top of the 5), simply place <code>&lt;sup&gt; ... &lt;/sup&gt;</code> around the 'th'</p>
+<hr>
+
+
+<h2>3. Description lists</h2>
 <p>Description lists are good for giving definitions</p>
 <dl>
   <dt>soliloquy</dt>
@@ -27,7 +34,7 @@
 <p>To get the code for this, <a href="https://www.w3schools.com/tags/tag_dl.asp">visit the W3Schools entry for description lists</a>.</p>
 
 <hr>
-<h2>3. Tables</h2>
+<h2>4. Tables</h2>
 <p>Tables are an orderly way to present information.</p>
 <p>Here is an example of a simple verb table:</p>
 <table>
@@ -64,12 +71,6 @@ So, in our two column table above, we would add:<br><code>&lt;tr&gt;&lt;td&gt; t
 
 <p>The above steps may seem very complicated, so the easiest place to find the basic table code is, <a href="https://www.w3schools.com/tags/tag_table.asp">visit the W3Schools entry for tables</a>. Copy the code there and experiment.</p>
 
-<hr>
-
-<h2>4. Superscript</h2>
-<p>Now for something easier. The superscript tag is useful for formatting the date.</p>
-<p><b>Example:</b> My birthday is on the 25<sup>th</sup> of May 2001.</p>
-<p>To make the 'th' a superscript (i.e. half the size of the numbers 25 and floating at the top of the 5), simply place <code>&lt;sup&gt; ... &lt;/sup&gt;</code> around the 'th'</p>
 <hr>
 
 <h2>5. Accented and Non-Latin Characters</h2>
