@@ -49,12 +49,12 @@
 
 <p>4. After you have completed your th tags, the end of the row is closed with the <code>&lt;/tr&gt;</code> tag.</p>
 
-<p><b>For example:</b> In the first two columns of the table above, the first row code is like this: <code>&lt;tr&gt;&lt;th&gt;Infinitive&lt;/th&gt;&lt;th&gt;Past simple&lt;/th&gt;&lt;/tr&gt;</code></p>
+<p><b>For example:</b> In the first two columns of the table above, the first row code is like this: <code>&lt;tr&gt;&lt;th&gt; Infinitive &lt;/th&gt;&lt;th&gt; Past simple &lt;/th&gt;&lt;/tr&gt;</code></p>
 
-<p>To insert another row, use <code>&lt;tr&gt;</code> again</p>.
+<p>To insert another row, use <code>&lt;tr&gt;</code> again.</p>
 
 <p>5. Then, to insert cells into the row, use the <code>&lt;td&gt;</code> tag, which means <b>table data</b>.<br>
-So, in our two column table above, we would add: <code>&lt;tr&gt;&lt;td&gt;to go&lt;/td&gt;&lt;th&gt;went&lt;/td&gt;&lt;/tr&gt;</code></p>
+So, in our two column table above, we would add: <code>&lt;tr&gt;&lt;td&gt; to go &lt;/td&gt;&lt;td&gt; went &lt;/td&gt;&lt;/tr&gt;</code></p>
 
 <p>The above steps may seem very complicated, so the easiest place to find the basic table code is, <a href="https://www.w3schools.com/tags/tag_table.asp">visit the W3Schools entry for tables</a>. Copy the code there and experiment.</p>
 
