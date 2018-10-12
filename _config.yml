@@ -3,3 +3,5 @@ title: Learn HTML and More
 description: Simple steps to making a website
 github:
   recipe: recipe.html
+  html-1: html-part-1.html
+  html-2: html-part-2.html
