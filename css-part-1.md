@@ -14,6 +14,7 @@
 <p>
 &lt;a href="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" title="View Image Source"&gt;
 <br>
+  <br>
 &lt;img  src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe"&gt; 
 <br>
 &lt;/a&gt;
