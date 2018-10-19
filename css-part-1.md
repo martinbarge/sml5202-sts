@@ -9,7 +9,8 @@
 <div class="clearLeft"></div>
 
 <p>Ths code for this is:</p>
-<div class="code">
+
+<div class="codeblock">
 <p>
 &lt;a href="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" title="View Image Source"&gt;
 <br>
@@ -18,6 +19,7 @@
 &lt;/a&gt;
 </p>
 </div>
+
 <p>Look at the above lines of code carefully. Notice the order in which the tags are placed:</p> 
 
 <ol>
