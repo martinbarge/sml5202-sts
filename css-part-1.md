@@ -9,15 +9,15 @@
 <div class="clearLeft"></div>
 
 <p>Ths code for this is:</p>
-<code>
+<div class="code">
+<p>
 &lt;a href="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" title="View Image Source"&gt;
-  
-  
-&lt;img  src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe"&gt;
-
-
+<br>
+&lt;img  src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe"&gt; 
+<br>
 &lt;/a&gt;
-</code>
+</p>
+</div>
 <p>Look at the above lines of code carefully. Notice the order in which the tags are placed:</p> 
 
 <ol>
