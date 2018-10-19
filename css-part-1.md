@@ -37,6 +37,8 @@
 <p>In the example above, the word <code> width </code> is known as a style <strong style="color:#33cc00;">property</strong>, and the number <code>70%</code> is known as the <strong style="color:#33cc00;">value</strong>. Notice that the property and the value are separated by a colon (:) </p>
 
 <p> The Mozilla Developer Network provides a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index">full reference for all possible style properties</a>. <b>But you don't need to worry about learning them all! Just a few are useful for our purposes.</b></p>
+
+<h3>2.2: Adding borders to images.</h3>
 <p>We can add other properties and values to our style entry. For example: <code> style="width:70%; border:1px solid green; </code>. Adding the 'border' property specifies a border around the image. In this example, the border property is followed by 3 values: <code> 1px solid green </code>. This means the border will be a solid green line, one pixel thick.</p>
 <p>Notice that to add a new property to the style, we need to put a semi-colon after the previous property:value pair.</p>
 <p>So the full code for our image tag would now look like this:</p>
@@ -50,7 +52,7 @@
 <img style="width:70%; border:1px solid green;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe"></a>
 </p>
 
-<h3>2.2: Centering an image on the page.</h3>
+<h3>2.3: Centering an image on the page.</h3>
 <p style="margin-left:15%;">This time, the image is centred.</p>
 <a href="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" title="View Image Source">
 <img style="width:70%; border:1px solid green; margin-left:15%;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe"></a>
