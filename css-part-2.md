@@ -3,7 +3,7 @@
 <p>We know we can insert style rules into HTML tags, using the <code> style="" </code> attribute.</p>
 <p>However, a more efficient way to accomplish this is by using an external stylesheet. Using an external stylesheet enables us to specify a set of style rules that we can then apply within our HTML tags. This tutorial shows you how to do this.</p>
 <hr>
-<h2>Review: inline styles</h2>
+<h2>1. Review: inline styles</h2>
 <p>You remember from previous practice, that we can insert an image into our page, like this:</p>
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe">
 <p>To recap, the code for this is:</p>
