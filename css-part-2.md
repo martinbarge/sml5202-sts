@@ -6,13 +6,12 @@
 <h2>Review: inline styles</h2>
 <p>You remember from previous practice, that we can insert an image into our page, like this:</p>
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe">
-</p>
-<div class="clearLeft"></div>
-
 <p>To recap, the code for this is:</p>
+
 <div class="codeblock">
 &lt;img  src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe"&gt;
 </div>
+
 <p>And we have seen that by inserting a style rule into the tag, we can manipulate the position of the image, like this:</p> 
 <img style="width:70%; border:1px solid green;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe">
 
