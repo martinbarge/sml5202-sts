@@ -37,7 +37,7 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
 
 <hr>
 <h2>2. Adding external style sheets.</h2>
-<h3>Setting up the style sheet and creating a rule</h3>
+<h3>2.1. Setting up the style sheet and creating a rule</h3>
 <p>The first thing we need to do is set up the external stylesheet. An external stylesheet is simply a file containing the style rules you want your site to use. On a GitHub pages site, we have to create two new directories and the file, like this:</p>
 <ol>
   <li>In your site code repository add a new file: assets/css/style.scss</li>
@@ -60,7 +60,7 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
 <p>Study the code carefully. Code is very strict about syntax, so any mistakes in punctuation or the use of illegal characters (e.g. ") will cause errors and your page will either fail to publish or will dispaly incorrectly.</p>
 <p>Finally, we inserted <code> class="imgLeft" </code> into our img tag to reference the style sheet rule. Notice that in the class declaration, we do not need to place the dot (.) before the name of the class in the HTML tag. We must use <code> class="" </code> instead.</p>
 
-<h3>2.1. Inserting the text around the image</h3>
+<h3>2.2. Inserting the text around the image</h3>
 <p>The final thing we need to do is wrap a paragraph around our image tag and include the text we want to display next to the image. This is easy to do. In my example above, it looks like this:</p>
 <p>
 <div class="codeblock">
@@ -76,7 +76,7 @@ My paragraph of text goes here. After the image tag, but before the closing p ta
   </p>
   
   <p>Notice in the above that I have put a &lt;p&gt; tag before the image tag, and a &lt;/p&gt; tag after the paragraph of text.</p>
-  <h3>2.2. A final tweak</h3>
+  <h3>2.3. A final tweak</h3>
   <p>Finally, in my example image in this page, I originally set the image width to 70%. But I now want the text to have equal space next to the image, so I have changed the style width to 50%, so that the image is 50% wide, which gives the text an equal (50%) space next to the image. Here is the result:</p>
 <p>
 <img class="imgLeft" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe">
