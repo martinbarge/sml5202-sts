@@ -39,6 +39,7 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
 <h2>2. Adding external style sheets.</h2>
 <h3>2.1. About external style sheets</h3>
 <p>External style sheets are useful because they enable you to create a style rule once. You can then reference that style in your HTML tags and the browser will apply the style. This section shows you how to do this, using the image and text as an example.</p>
+
 <h3>2.2. Setting up the style sheet and creating a rule</h3>
 <p>The first thing we need to do is set up the external stylesheet. An external stylesheet is simply a file containing the style rules you want your site to use. On a GitHub pages site, we have to create two new directories and the file, like this:</p>
 <ol>
@@ -52,7 +53,7 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
   <li>Finally, commit the changes to the file and view the result.</li>
 </ol>
 
-<p>In the above steps, we took the style code from the image tag and created our own style rule named <code> .imgLeft </code>. The dot in front of the style rule name creates what is known as a <b>style class</b>. You can name style classes as you like, but it's best practice to use an accepted form. The form I've used here is called 'camel case' in which a capital letter is used to identify the second part of the class name (Left). This is a standard used in programming and scripting, but many developers prefer to use hypenated names (e.g. .img-left) for better readability. It's up to you. But <b>never</b> put spaces between your class names (e.g. .img left). This will not work. </p>
+<p>In the above steps, we created a style sheet named 'style.scss' [steps 1 & 2]. (Note: SCSS stands for 'sassy cascading style sheets', which is a style sheet language that uses the same syntax as CSS). We then took the style code from the image tag and created our own style rule named <code> .imgLeft </code>  [step 3]. The dot in front of the style rule name creates what is known as a <b>style class</b>. You can name style classes as you like, but it's best practice to use an accepted form. The form I've used here is called 'camel case' in which a capital letter is used to identify the second part of the class name (Left). This is a standard used in programming and scripting, but many developers prefer to use hypenated names (e.g. .img-left) for better readability. It's up to you. But <b>never</b> put spaces between your class names (e.g. .img left). This will not work. </p>
 <p>The other important points to notice in the style code are this:</p>
 <ul>
   <li>The style rule is surrounded by curly brackets: <code> { } </code>.</li>
@@ -60,7 +61,7 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
   <li>Each style property and its values end with a semi-colon <code> ; </code></li>
   </ul>
 <p>Study the code carefully. Code is very strict about syntax, so any mistakes in punctuation or the use of illegal characters (e.g. ") will cause errors and your page will either fail to publish or will dispaly incorrectly.</p>
-<p>Finally, we inserted <code> class="imgLeft" </code> into our img tag to reference the style sheet rule. Notice that in the class declaration, we do not need to place the dot (.) before the name of the class in the HTML tag. We must use <code> class="" </code> instead.</p>
+<p>Finally, [step 5] we inserted <code> class="imgLeft" </code>  into our img tag to reference the style sheet rule. Notice that in the class declaration, we do not need to place the dot (.) before the name of the class in the HTML tag. We must use <code> class="" </code> instead.</p>
 
 <h3>2.3. Inserting the text around the image</h3>
 <p>The final thing we need to do is wrap a paragraph around our image tag and include the text we want to display next to the image. This is easy to do. In my example above, it looks like this:</p>
