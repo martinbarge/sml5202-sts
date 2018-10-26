@@ -1,6 +1,6 @@
 <h1>HTML and CSS Part 2</h1>
 <h2>Introduction</h2>
-<p>We know we can insert style rules into HTML tags, using the <code> style="" </code> attribute.</p>
+<p>We know we can insert style rules into HTML tags, using the <code>style=""</code> attribute.</p>
 <p>However, a more efficient way to accomplish this is by using an external stylesheet. Using an external stylesheet enables us to specify a set of style rules that we can then apply within our HTML tags. This tutorial shows you how to do this.</p>
 <hr>
 <h2>1. Review: inline styles</h2>
@@ -17,7 +17,7 @@
 
 <p>The style rule for this is:</p>
 <div class="codeblock"> 
-&lt;img style="width:70%; border:1px solid green;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
+&lt;img <span style="text-decoration:underline; color:#009922;">style="width:70%; border:1px solid green;"</span> src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
 </div>
 
 <p>Now we are going to see how to wrap text alongside the image, which is a good way to place an image within a paragraph of text. Here is the above image with text wrapped to the right.</p>
@@ -47,7 +47,7 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
   <li>Insert the following lines exactly as shown to the top of the style.scss file: <img src="assets/img/scss-file-1.png"></li>
   <li>Next, add the following code below the lines shown in the image above: <img src="assets/img/imgleft-code.png"></li>
   <li>Commit the changes to the scss file.</li>
-  <li>Now go back to your HTML page, and change the img tag entry as follows: <code> 
+  <li>Now go back to your HTML page, and change the img tag entry as follows: <code class="codeblock"> 
 &lt;img class="imgLeft" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
     </code></li>
   <li>Finally, commit the changes to the file and view the result.</li>
