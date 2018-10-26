@@ -47,9 +47,9 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
   <li>Insert the following lines exactly as shown to the top of the style.scss file: <img src="assets/img/scss-file-1.png"></li>
   <li>Next, add the following code below the lines shown in the image above: <img src="assets/img/imgleft-code.png"></li>
   <li>Commit the changes to the scss file.</li>
-  <li>Now go back to your HTML page, and change the img tag entry as follows: <code class="codeblock"> 
+  <li>Now go back to your HTML page, and change the img tag entry as follows: <span class="codeblock"> 
 &lt;img class="imgLeft" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
-    </code></li>
+    </span></li>
   <li>Finally, commit the changes to the file and view the result.</li>
 </ol>
 
@@ -89,7 +89,7 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
 <h3>2.5. Applying the style to other elements</h3>
 <p>In this tutorial, I have used the .imgLeft style on the img tag. But you could also apply this style to a paragraph tag. For example:</p>
 <p class="imgLeft">Stands for "Cascading Style Sheet." Cascading style sheets are used to format the layout of Web pages. They can be used to define text styles, table sizes, and other aspects of Web pages that previously could only be defined in a page's HTML.</p>
-<p>The above example doesn't look very pretty, but it does demonstrate the usefulness of CSS classes.</p>
+<p style="clear:both;">The above example doesn't look very pretty, but it does demonstrate the usefulness of CSS classes.</p>
 
 <hr>
   
