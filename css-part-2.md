@@ -47,9 +47,9 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
   <li>Insert the following lines exactly as shown to the top of the style.scss file: <img src="assets/img/scss-file-1.png"></li>
   <li>Next, add the following code below the lines shown in the image above: <img src="assets/img/imgleft-code.png"></li>
   <li>Commit the changes to the scss file.</li>
-  <li>Now go back to your HTML page, and change the img tag entry as follows: <span class="codeblock"> 
-&lt;img class="imgLeft" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
-    </span></li>
+  <li>Now go back to your HTML page, and change the img tag entry as follows: <code> 
+    &lt;img <span style="text-decoration:underline; color:#009922;">class="imgLeft"</span> src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
+    </code></li>
   <li>Finally, commit the changes to the file and view the result.</li>
 </ol>
 
