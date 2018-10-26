@@ -38,7 +38,7 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
 <hr>
 <h2>2. Adding external style sheets.</h2>
 <h3>2.1. About external style sheets</h3>
-<p>External style sheets are useful because the enable you to create the style rule once. You can then reference the style in your HTML tags and the browser will apply the style. This section shows you how to do this, using the image and text as an example.</p>
+<p>External style sheets are useful because they enable you to create a style rule once. You can then reference that style in your HTML tags and the browser will apply the style. This section shows you how to do this, using the image and text as an example.</p>
 <h3>2.2. Setting up the style sheet and creating a rule</h3>
 <p>The first thing we need to do is set up the external stylesheet. An external stylesheet is simply a file containing the style rules you want your site to use. On a GitHub pages site, we have to create two new directories and the file, like this:</p>
 <ol>
@@ -79,13 +79,17 @@ My paragraph of text goes here. After the image tag, but before the closing p ta
   
   <p>Notice in the above that I have put a &lt;p&gt; tag before the image tag, and a &lt;/p&gt; tag after the paragraph of text.</p>
   
-  <h3>2.4. A final tweak</h3>
-  <p>Finally, in my example image in this page, I originally set the image width to 70%. But I now want the text to have equal space next to the image, so I have changed the style width to 50%, so that the image is 50% wide, which gives the text an equal (50%) space next to the image. Here is the result:</p>
+<h3>2.4. Tweaking the style</h3>
+<p>Finally, in my example image in this page, I originally set the image width to 70%. But I now want the text to have equal space next to the image, so I have changed the style width to 50%, so that the image is 50% wide, which gives the text an equal (50%) space next to the image. Here is the result:</p>
 <p>
 <img class="imgLeft" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe">
 The map to the left shows the biogeography of Europe. Biogeography is the study of the distribution of species and ecosystems in geographic space and through geological time. Organisms and biological communities often vary in a regular fashion along geographic gradients of latitude, elevation, isolation and habitat area. Phytogeography is the branch of biogeography that studies the distribution of plants. Zoogeography is the branch that studies distribution of animals. Source: <a href="https://en.wikipedia.org/wiki/Biogeography">Wikipedia</a>
-
 </p>
+<h3>2.5. Applying the style to other elements</h3>
+<p>In this tutorial, I have used the .imgLeft style on the img tag. But you could also apply this style to a paragraph tag. For example:</p>
+<p class="imgLeft">Stands for "Cascading Style Sheet." Cascading style sheets are used to format the layout of Web pages. They can be used to define text styles, table sizes, and other aspects of Web pages that previously could only be defined in a page's HTML.</p>
+<p>The above example doesn't look very pretty, but it does demonstrate the usefulness of CSS classes.</p>
+
 <hr>
   
   <h2>3. Homework</h2>
