@@ -7,7 +7,7 @@
 <iframe src="https://h5p.org/h5p/embed/357466" width="1090" height="497" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
-<p>The following is a button leading to a sub-page of the site:</p>
-<a style="float:right;" href="exercises.html" class="btn2">Example Exercises</a>
+<p>If you have time, you can practise your pronunciation on the next page:</p>
+<a style="float:right;" href="exercises.html" class="btn2">Additional Exercises</a>
 <p style="clear:both;"></p>
 
