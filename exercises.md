@@ -6,4 +6,4 @@
 
 <a style="float:left;" href="css-part-3.html" class="btn2">Back to CSS Part 3</a>
 
-<p style="clear:both;"></p>
+<div style="clear:both;"></div>
