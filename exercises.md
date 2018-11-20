@@ -11,6 +11,7 @@
 <hr>
 
 <h2>How to add button Links</h2>
+<p>Follow the link below to view the slides showing you how to add button links.</p>
 
-<a style="float:right;" href="link-buttons-tutorial.html" class="btn2">Adding Button Links</a>
+<a style="float:left;" href="link-buttons-tutorial.html" class="btn2">Adding Button Links</a>
 <div style="clear:both;"></div>
