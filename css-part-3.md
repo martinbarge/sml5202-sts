@@ -12,15 +12,13 @@
 <p>Try this fun activity to match the words to the pictures.</p>
 <iframe src="https://h5p.org/h5p/embed/141376" width="1090" height="1002" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
 
+<p>When you have finished, you can test your memory on the next page:</p>
 
-<p>If you have time, you can test your memory on the next page:</p>
 <a style="float:right;" href="exercises.html" class="btn2">Additional Exercises</a>
-<p style="clear:both;"></p>
-<hr>
-<h2>How to do this</h2>
-<p>First you need to be sure you have a hidden page to link to. So create a page in your GitHub repository, but don't add it to the top navigation.</p>
-<p>Next, follow the instructions on this slide tutorial to insert the links and style them as buttons.</p>
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRFvxWWfXshffk4M4BubguREx3OioYQ3SdXJdw3DmOvVrWNqwCDlELTPf8M4fBklJNeDCSfya-CI74h/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="550" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<div style="clear:both;"></div>
 
-<p>That's it. It's quite simple, but useful.</p>
+<h2>How to do this</h2>
+
+<a style="float:right;" href="link-buttons-tutorial.html" class="btn2">Adding Button Links</a>
+<div style="clear:both;"></div>
 
