@@ -17,8 +17,5 @@
 <a style="float:right;" href="exercises.html" class="btn2">Additional Exercises</a>
 <div style="clear:both;"></div>
 
-<h2>How to do this</h2>
 
-<a style="float:right;" href="link-buttons-tutorial.html" class="btn2">Adding Button Links</a>
-<div style="clear:both;"></div>
 
