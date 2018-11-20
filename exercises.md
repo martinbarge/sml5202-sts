@@ -7,3 +7,10 @@
 <a style="float:left;" href="css-part-3.html" class="btn2">Back to CSS Part 3</a>
 
 <p style="clear:both;"></p>
+
+<hr>
+
+<h2>How to add button Links</h2>
+
+<a style="float:right;" href="link-buttons-tutorial.html" class="btn2">Adding Button Links</a>
+<div style="clear:both;"></div>
