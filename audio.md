@@ -11,6 +11,13 @@
 
 
 
+<audio controls>
+  
+  <source src="https://github.com/martinbarge/sml209-18-sts/blob/master/assets/mart/Dialogue_franz_greta_1.ogg.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+
 
 <p>&copy; Audio file, "Hans and Greta" by <a href="https://en.wikibooks.org/wiki/German/Level_I/Wie_hei%C3%9Ft_du%3F">Wikibooks</a> is licensed under Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) 
 <p>
