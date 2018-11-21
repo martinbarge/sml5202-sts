@@ -10,7 +10,7 @@
 
 <h2>Exercise 2: Memory Game</h2>
 <p>Try this fun activity to match the words to the pictures.</p>
-<iframe src="https://h5p.org/h5p/embed/141376" width="1090" height="1002" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://h5p.org/h5p/embed/141376" width="830" height="954" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
 
 <p>When you have finished, you can test your memory on the next page:</p>
 
