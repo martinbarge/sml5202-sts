@@ -13,7 +13,7 @@
 
 <audio controls>
   
-  <source src="https://github.com/martinbarge/sml209-18-sts/blob/master/assets/mart/Dialogue_franz_greta_1.ogg.mp3" type="audio/mpeg">
+  <source src="assets/mart/Dialogue_franz_greta_1.ogg.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
 
