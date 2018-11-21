@@ -12,5 +12,5 @@
 
 
 
-<p>&copy; Audio file, "Hans and Greta" by [Wikibooks](https://en.wikibooks.org/wiki/German/Level_I/Wie_hei%C3%9Ft_du%3F) is licensed under Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) 
+<p>&copy; Audio file, "Hans and Greta" by <a href="https://en.wikibooks.org/wiki/German/Level_I/Wie_hei%C3%9Ft_du%3F">Wikibooks</a> is licensed under Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) 
 <p>
