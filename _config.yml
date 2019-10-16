@@ -6,7 +6,7 @@ github:
   html-1: html-part-1.html #wait.html
   html-2: html-part-2.html #wait.html
   css-1: css-part-1.html #wait.html
-  css-2: wait.html #css-part-2.html
+  css-2: css-part-2.html #wait.html
   css-3: wait.html #css-part-3.html
   
 
