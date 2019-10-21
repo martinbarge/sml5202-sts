@@ -92,7 +92,7 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
 <p style="clear:both;">The above example doesn't look very pretty, but it does demonstrate the usefulness of CSS classes.</p>
 
 <hr>
-<h2>Update</h2>
+<h2><a name="update">Update</a></h2>
 <p>I've been working on a neater way to position images and text side-by-side, with the added feature of adjusting to screen sizes</p>
 <p>The code entries below can be pasted directly into your GitHub page</p>
 
