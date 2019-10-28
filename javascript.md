@@ -3,7 +3,7 @@
 <p>this example demonstrates a simple random(ish) sentence generator, using subject + verb + adverb patterns.</p>
 <p>Follow the tutorial on QMplus to make one yourself.</p>
 
-<button onclick="makeSentence()">Click me</button>
+<button onclick="makeSentence()">Make sentences</button>
 
 <p id="demo"></p>
 
