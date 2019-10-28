@@ -8,5 +8,6 @@ github:
   css-1: css-part-1.html #wait.html
   css-2: css-part-2.html #wait.html
   css-3: wait.html #css-part-3.html
+  javascript: javascript.html
   
 
