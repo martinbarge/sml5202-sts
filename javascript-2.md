@@ -27,7 +27,7 @@ var btn = $("#btn1");
 btn.on("click", function(e) {
 
   $.ajax({
-    url: "https://martinbarge.github.io/sml5202-19-sts/datasets/idioms.json",
+    url: "datasets/idioms.json",
     dataType: "json"
   }).done(function(result) {
     let id = Math.floor(Math.random() * 5);
