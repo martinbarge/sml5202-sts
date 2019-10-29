@@ -1,9 +1,20 @@
 <h1>Text from JSON</h1>
 
+<style>
+  button {
+  background: #0084ff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 14px;
+  font-size: 15px;
+  color: #fff;
+}
+
+</style>
+
 <div>
-  <p>Hello JSON</p>
   <button id="btn1">Show idiom</button>
-  <div id="data-container">Click <b style="color:royalblue;">Get Data!</b> button</div>
+ 
 </div>
 
 <dl id="quote"></dl>
