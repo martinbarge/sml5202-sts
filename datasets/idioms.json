@@ -1,13 +1,7 @@
 {
-"European Capitals": 
+"idioms": 
 [
-{"country_code": "ad", "capital_name": "Andorra", "latitude": "42.5", "longitude": "1.5165"}, 
-{"country_code": "al", "capital_name": "Tirana", "latitude": "41.3275", "longitude": "19.8189"}, 
-{"country_code": "at", "capital_name": "Vienna", "latitude": "48.2", "longitude": "16.3666"}, 
-{"country_code": "ba", "capital_name": "Sarajevo", "latitude": "43.85", "longitude": "18.383"}, 
-{"country_code": "be", "capital_name": "Brussels", "latitude": "50.8333", "longitude": "4.3333"}, 
-{"country_code": "bg", "capital_name": "Sofia", "latitude": "42.6833", "longitude": "23.3167"}, 
-{"country_code": "by", "capital_name": "Minsk", "latitude": "53.9", "longitude": "27.5666"}, 
-{"country_code": "ch", "capital_name": "Bern", "latitude": "46.9167", "longitude": "7.467"} 
+{"idiom": 'Once in a blue moon = Very rarely.', "example": "Example: <i>Once in a blue moon you might see a solar eclipse.</i>"}, 
+{"idiom": 'Tickled pink = To be extremely pleased., "example": "<i>Your grandma was tickled pink that you called on her birthday!</i>"} 
 ]
 }
