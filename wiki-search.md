@@ -1,15 +1,6 @@
-<!--
-
-Credits: 
-The code for this application is derived from an online tutorial by Ayooluwa Isaiah, a Web Technology Software Developer based in Lagos, Nigeria. His tutorial can be followed at: https://freshman.tech/wikipedia-javascript/
-
--->
-
 <header class="searchForm-container">
-
-      <img src="https://image.ibb.co/e6vOFQ/wikipedia.png" alt="Wikipedia Logo">
-
-      <form class="searchForm">
+<img src="https://image.ibb.co/e6vOFQ/wikipedia.png" alt="Wikipedia Logo">
+<form class="searchForm">
         <input type="search" class="searchForm-input">
         <button type="submit" class="icon searchIcon">
           <img src="https://image.ibb.co/cpG8zk/search.png" alt="Magnifying Glass Icon">
@@ -18,10 +9,8 @@ The code for this application is derived from an online tutorial by Ayooluwa Isa
           <img src="https://image.ibb.co/fR5OX5/random.png" alt="Shuffle Icon">
         </a>
       </form>
-
-    </header>
-
-    <section class="searchResults"></section>
+</header>
+<section class="searchResults"></section>
 
   </main>
   
