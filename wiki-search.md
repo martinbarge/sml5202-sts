@@ -11,10 +11,9 @@
       </form>
 </header>
 <section class="searchResults"></section>
-
-  </main>
+</main>
   
-  <script>
+<script>
   function handleSubmit(event) {
     // prevent page from reloading when form is submitted
   event.preventDefault();
@@ -61,4 +60,4 @@ console.log(results);
 }
 const form = document.querySelector('.searchForm');
 form.addEventListener('submit', handleSubmit);
-  </script>
+</script>
