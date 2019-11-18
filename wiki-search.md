@@ -11,7 +11,6 @@
       </form>
 </header>
 <section class="searchResults"></section>
-</main>
   
 <script>
   function handleSubmit(event) {
