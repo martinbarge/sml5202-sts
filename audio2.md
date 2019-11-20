@@ -12,7 +12,7 @@ Your browser does not support the audio tag.
 
 <hr>
 <h2>Text that plays sound</h2>
-<p>Some text such as <a href="" onClick="playSound('audio1')">psychology</a>.</p>
+<p>Some text such as <a href="#" onClick="playSound('audio1');event.preventDefault();">psychology</a>.</p>
 
 <hr>
 <h2>Buttons that play sounds</h2>
