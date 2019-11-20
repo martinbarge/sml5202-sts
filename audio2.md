@@ -4,8 +4,8 @@
 <h2>1. The audio player</h2> 
 
 <audio controls> 
-<source src="audio/FullExtract.ogg" type="audio/ogg"> 
-<source src="audio/FullExtract.mp3" type="audio/mpeg">
+<source src="assets/audio/FullExtract.ogg" type="audio/ogg"> 
+<source src="assets/audio/FullExtract.mp3" type="audio/mpeg">
 Your browser does not support the audio tag.
 </audio>
 
@@ -27,18 +27,18 @@ thissound.play();
 </script>
 
 <audio id="audio1"> 
-<source src="audio/psych.ogg" type="audio/ogg">
-<source src="audio/psych.mp3" type="audio/mpeg"> 
+<source src="assets/audio/psych.ogg" type="audio/ogg">
+<source src="assets/audio/psych.mp3" type="audio/mpeg"> 
 </audio> 
 
 <audio id="audio2">
-<source src="audio/physiology.ogg" type="audio/ogg">
-<source src="audio/physiology.mp3" type="audio/mpeg"> 
+<source src="assets/audio/physiology.ogg" type="audio/ogg">
+<source src="assets/audio/physiology.mp3" type="audio/mpeg"> 
 </audio> 
 
 <audio id="audio3"> 
-<source src="audio/rhino.ogg" type="audio/ogg"> 
-<source src="audio/rhino.mp3" type="audio/mpeg"> 
+<source src="assets/audio/rhino.ogg" type="audio/ogg"> 
+<source src="assets/audio/rhino.mp3" type="audio/mpeg"> 
 </audio>
 
 
