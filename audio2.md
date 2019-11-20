@@ -50,7 +50,5 @@ thissound.play();
 <hr>
 <h2>An image that plays a sound</h2>
 <a id="image" onClick="playSound('audio3')"><img
-src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Ostafrikanisches_Spitzmaulnashorn.JPG/320px-Ostafrikanisches_Spitzmaulnashorn.
-JPG" width="200" /></a> 
-
+src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Ostafrikanisches_Spitzmaulnashorn.JPG" style="width:256px;" /></a> 
 <hr>
