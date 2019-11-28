@@ -12,6 +12,7 @@ Here are three video clips that I have made as examples for this course.</p>
 <iframe src="https://h5p.org/h5p/embed/145783" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 <h3>Example 3: Screencasting Slides</h3>
+
 <p>i) To present vocabulary items using images, slides and screencast software</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RRRnZIXocN0?rel=0" frameborder="0" allowfullscreen></iframe>
 
