@@ -13,10 +13,12 @@ Here are three video clips that I have made as examples for this course.</p>
 
 <h3>Example 3: Screencasting Slides</h3>
 
-<p>i) To present vocabulary items using images, slides and screencast software</p>
+i) To present vocabulary items using images, slides and screencast software:
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RRRnZIXocN0?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<p>ii) To present verbs for describing daily routines, using images, slides and screencast software</p>
+ii) To present verbs for describing daily routines, using images, slides and screencast software:
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jW7tt0Ut3dM?rel=0" frameborder="0" allowfullscreen></iframe>
 
 <hr> 
