@@ -14,51 +14,9 @@
    top: 0;
    width: 100%;
 }
-
-// Demo styles
-
-
-.mainContainer {
-  background: url('https://benmarshall.me/wp-content/uploads/2018/08/background.gif');
-  font-family: 'Lora', serif;
-  font-size: 16px;
-  line-height: 1.3;
-  margin: 1rem 0;
-  text-align: center;
-}
-
-/***
-h1,
-p {
-  margin-bottom: 2rem;
-}
-
-h1 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.7rem;
-}
-
-a {
-  color: #31c1ef;
-  text-decoration: none;
-}
-
-***/
-
-
-.wrapper {
-  background-color: #fff;
-  border-radius: 1rem;
-  margin: 0 auto;
-  max-width: 1020px;
-  padding: 2rem;
-  width: 100%;
-}
-
 </style>
 
-<!--<div class="mainContainer">
-<div class="wrapper">-->
+
 <select name="" id="list" onclick="loadFrame()">
     <option value="shooter">Phrases Shooter Game</option>
     <option value="matching">Phrases matching game</option>
@@ -72,8 +30,7 @@ a {
   </div>
   
    <p style="font-size:90%;">This <a href="https://benmarshall.me/responsive-iframes/">responsive iframe</a> is courtesy of Ben Marshall's demonstration of <a href="https://benmarshall.me/resize-videos-proportionally-intrinsic-ratios/">intrinsic ratio technique</a>.</p>
-<!--</div>
-</div>-->
+
 
 <script>
 function loadFrame() {
@@ -90,6 +47,5 @@ function loadFrame() {
   document.getElementById("ifrm").src = gameUrl;
   }
   
-  //document.getElementById("myFrame").src = url;
 }
 </script>
