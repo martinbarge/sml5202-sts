@@ -57,16 +57,14 @@ a {
 
 </style>
 
-<div class="mainContainer">
-<div class="wrapper">
+<!--<div class="mainContainer">
+<div class="wrapper">-->
 <select name="" id="list" onclick="loadFrame()">
     <option value="shooter">Phrases Shooter Game</option>
     <option value="matching">Phrases matching game</option>
   </select>
   <br><br>
-  
-  <!--<button type="submit" onclick="myFunction()">Choose Game</button>-->
-  
+    
   <div class="iframe-container">
     <iframe id="ifrm" src="https://www.cram.com/flashcards/games/jewel/english-spanish-translations-11085554">
   <p>Your browser does not support iframes.</p>
@@ -74,14 +72,13 @@ a {
   </div>
   
    <p style="font-size:90%;">This <a href="https://benmarshall.me/responsive-iframes/">responsive iframe</a> is courtesy of Ben Marshall's demonstration of <a href="https://benmarshall.me/resize-videos-proportionally-intrinsic-ratios/">intrinsic ratio technique</a>.</p>
-</div>
-</div>
+<!--</div>
+</div>-->
 
 <script>
 function loadFrame() {
   let e = document.getElementById("list");
   let url = e.options[e.selectedIndex].value;
-  
   
   if (url == "shooter"){
   let gameUrl = "https://www.cram.com/flashcards/games/stellar-speller/english-spanish-translations-11085554";
