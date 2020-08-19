@@ -9,15 +9,15 @@
 <p>To recap, the code for this is:</p>
 
 <div class="codeblock">
-&lt;img  src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe"&gt;
+&lt;img  src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe"&gt;
 </div>
 
 <p>And we have seen that by inserting a style rule into the tag, we can manipulate the position of the image, like this:</p> 
-<img style="width:70%; border:1px solid green;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe">
+<img style="width:70%; border:1px solid green;" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe">
 
 <p>The style rule for this is:</p>
 <div class="codeblock"> 
-&lt;img <span style="text-decoration:underline; color:#009922;">style="width:70%; border:1px solid green;"</span> src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
+&lt;img <span style="text-decoration:underline; color:#009922;">style="width:70%; border:1px solid green;"</span> src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe" &gt;
 </div>
 
 <p>Now we are going to see how to wrap text alongside the image, which is a good way to place an image within a paragraph of text. Here is the above image with text wrapped to the right.</p>
@@ -30,7 +30,7 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
 
 <p>The style rule for the above now looks like this:</p>
 <div class="codeblock"> 
-&lt;img <span style="text-decoration:underline; color:#009922;">style="width:70%; border:1px solid green; float:left; margin: 0 10px 10px 0;"</span> src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
+&lt;img <span style="text-decoration:underline; color:#009922;">style="width:70%; border:1px solid green; float:left; margin: 0 10px 10px 0;"</span> src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe" &gt;
 </div>
 <p>As you can see, the style rule is becoming quite long and complex. This makes it more difficult to read, to detect errors, and is time-consuming to include in every image on your website that you wish to apply the style to.</p>
 <p>So this where an external style sheet proves indispensible.</p>
@@ -48,7 +48,7 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
   <li>Next, add the following code below the lines shown in the image above: <img src="assets/img/imgleft-code.png"></li>
   <li>Commit the changes to the scss file.</li>
   <li>Now go back to your HTML page, and change the img tag entry as follows: <code> 
-    &lt;img <span style="text-decoration:underline; color:#009922;">class="imgLeft"</span> src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
+    &lt;img <span style="text-decoration:underline; color:#009922;">class="imgLeft"</span> src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe" &gt;
     </code></li>
   <li>Finally, commit the changes to the file and view the result.</li>
 </ol>
@@ -69,7 +69,7 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
 <div class="codeblock">
   &lt;p&gt;<br> 
   
-&lt;img class="imgLeft" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
+&lt;img class="imgLeft" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe" &gt;
   <br>
   
 My paragraph of text goes here. After the image tag, but before the closing p tag.
@@ -83,7 +83,7 @@ My paragraph of text goes here. After the image tag, but before the closing p ta
 <h3>2.4. Tweaking the style</h3>
 <p>Finally, in my example image in this page, I originally set the image width to 70%. But I now want the text to have equal space next to the image, so I have changed the style width to 50%, so that the image is 50% wide, which gives the text an equal (50%) space next to the image. Here is the result:</p>
 <p>
-<img class="imgLeft" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe">
+<img class="imgLeft" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe">
 The map to the left shows the biogeography of Europe. Biogeography is the study of the distribution of species and ecosystems in geographic space and through geological time. Organisms and biological communities often vary in a regular fashion along geographic gradients of latitude, elevation, isolation and habitat area. Phytogeography is the branch of biogeography that studies the distribution of plants. Zoogeography is the branch that studies distribution of animals. Source: <a href="https://en.wikipedia.org/wiki/Biogeography">Wikipedia</a>
 </p>
 <h3>2.5. Applying the style to other elements</h3>
