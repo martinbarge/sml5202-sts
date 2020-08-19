@@ -20,21 +20,9 @@
 &lt;img <span style="text-decoration:underline; color:#009922;">style="width:70%; border:1px solid green;"</span> src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe" &gt;
 </div>
 
-<p>Now we are going to see how to wrap text alongside the image, which is a good way to place an image within a paragraph of text. Here is the above image with text wrapped to the right.</p>
-
-<p>
-<img style="width:70%; border:1px solid green; float:left; margin: 0 10px 10px 0;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe">
-The map to the left shows the biogeography of Europe. Biogeography is the study of the distribution of species and ecosystems in geographic space and through geological time. Organisms and biological communities often vary in a regular fashion along geographic gradients of latitude, elevation, isolation and habitat area. Phytogeography is the branch of biogeography that studies the distribution of plants. Zoogeography is the branch that studies distribution of animals. Source: <a href="https://en.wikipedia.org/wiki/Biogeography">Wikipedia</a>
-
-</p>
-
-<p>The style rule for the above now looks like this:</p>
-<div class="codeblock"> 
-&lt;img <span style="text-decoration:underline; color:#009922;">style="width:70%; border:1px solid green; float:left; margin: 0 10px 10px 0;"</span> src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe" &gt;
-</div>
-
-<p>As you can see, the style rule is becoming quite long and complex. This makes it more difficult to read, to detect errors, and is time-consuming to include in every image on your website that you wish to apply the style to.</p>
-<p>So this where an external style sheet proves indispensible.</p>
+<p>Inserting style attributes and values to individual HTML tags, known as 'inline styles', is fine for making local adjustments to the layout and design of your pages.</p>
+<p>However, if you want to apply the same style rules to multiple items on your page, or to multiple pages on your site, it's much quicker to create a global stylesheet, and then reference the rules of the sheet in the tags that use them. For example, if you want to position every image on your site in the same way, you can create a global style for the img tag</p>
+<p>This where an external style sheet proves indispensible.</p>
 
 <hr>
 <h2>2. Adding external style sheets.</h2>
@@ -68,32 +56,6 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
 <p>Study the code carefully. Code is very strict about syntax, so any mistakes in punctuation or the use of illegal characters (e.g. ") will cause errors and your page will either fail to publish or will dispaly incorrectly.</p>
 <p>Finally, [step 5] we inserted <code> class="imgLeft" </code>  into our img tag to reference the style sheet rule. Notice that in the class declaration, we do not need to place the dot (.) before the name of the class in the HTML tag. We must use <code> class="" </code> instead.</p>
 
-<h3>2.3. Inserting the text around the image</h3>
-<p>The final thing we need to do is wrap a paragraph around our image tag and include the text we want to display next to the image. This is easy to do. In my example above, it looks like this:</p>
-<p>
-  
-<div class="codeblock">
- &lt;p&gt;   
-&lt;img class="imgLeft" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe" &gt;;
-  &lt;br&gt;
-My paragraph of text goes here. After the image tag, but before the closing p tag.
-&lt;/p&gt;
-</div>
-
-  
-  <p>Notice in the above that I have put a &lt;p&gt; tag before the image tag, and a &lt;/p&gt; tag after the paragraph of text.</p>
-  
-<h3>2.4. Tweaking the style</h3>
-<p>Finally, in my example image in this page, I originally set the image width to 70%. But I now want the text to have equal space next to the image, so I have changed the style width to 50%, so that the image is 50% wide, which gives the text an equal (50%) space next to the image. Here is the result:</p>
-<p>
-<img class="imgLeft" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe">
-The map to the left shows the biogeography of Europe. Biogeography is the study of the distribution of species and ecosystems in geographic space and through geological time. Organisms and biological communities often vary in a regular fashion along geographic gradients of latitude, elevation, isolation and habitat area. Phytogeography is the branch of biogeography that studies the distribution of plants. Zoogeography is the branch that studies distribution of animals. Source: <a href="https://en.wikipedia.org/wiki/Biogeography">Wikipedia</a>
-</p>
-<h3>2.5. Applying the style to other elements</h3>
-<p>In this tutorial, I have used the .imgLeft style on the img tag. But you could also apply this style to a paragraph tag. For example:</p>
-<p class="imgLeft">Stands for "Cascading Style Sheet." Cascading style sheets are used to format the layout of Web pages. They can be used to define text styles, table sizes, and other aspects of Web pages that previously could only be defined in a page's HTML.</p>
-<p style="clear:both;">The above example doesn't look very pretty, but it does demonstrate the usefulness of CSS classes.</p>
-
 <hr>
 <h2><a name="update">Update</a></h2>
 <p>I've been working on a neater way to position images and text side-by-side, with the added feature of adjusting to screen sizes</p>
@@ -101,8 +63,8 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
 
 <h3>CSS Code</h3>
 <p>First set up the style rules on one of your github pages. Do this by copying the code block below and pasting into your page:</p>
+<div class="codeblock">
 
-```
 <style>
 * {
   box-sizing: border-box;
@@ -138,13 +100,14 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
   }
 }
 </style>
+</div>
 
-```
 <h3>HTML Code</h3>
 <p>Next, paste this HTML code block into your page:</p>  
 <p>Note: You can change the image URL and text to whatever you want to present on your page:</p>
 
-```
+<div class="codeblock">
+
 <div class="row">
   <div class="column">
     <h2>Column 1</h2>
@@ -156,7 +119,6 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
   </div>
 </div>
 
-```
 <h3>Result</h3>
 <p>Your image and text should look something like this:</p>
 
