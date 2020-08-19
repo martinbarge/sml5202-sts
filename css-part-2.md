@@ -50,9 +50,11 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
   <li>Commit the changes to the scss file.</li>
   <li>Now go back to your HTML page, and change the img tag entry as follows: 
     
-    <code> 
-    &lt;img <span style="text-decoration:underline; color:#009922;">class="imgLeft"</span> src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe" &gt;
-    </code></li>
+<code> 
+<span style="text-decoration:underline; color:#009922;"></span> 
+<img class="imgLeft" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe" &gt;
+</code>
+</li>
   <li>Finally, commit the changes to the file and view the result.</li>
 </ol>
 
@@ -70,7 +72,7 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
 <p>The final thing we need to do is wrap a paragraph around our image tag and include the text we want to display next to the image. This is easy to do. In my example above, it looks like this:</p>
 <p>
   
-<!--<div class="codeblock">-->
+<div class="codeblock">
  &lt;p&gt;   
 &lt;img class="imgLeft" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe" &gt;;
   &lt;br&gt;
