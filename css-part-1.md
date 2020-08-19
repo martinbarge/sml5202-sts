@@ -3,8 +3,8 @@
 <p>Sometimes it can be helpful for your page visitors to view images in a larger window. This can be done by adding a <code> &lt;a href=""  </code> tag around the image. This is also useful if you want an image to link to another website or page in your own website.<p>
 <p>Here is an example of an image from Wikipedia that is now clickable</p>
 <p>
-<a href="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" title="View Image Source">
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe"></a>
+<a href="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" title="View Image Source">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe"></a>
 </p>
 <div class="clearLeft"></div>
 
@@ -12,10 +12,10 @@
 
 <div class="codeblock">
 <p>
-&lt;a href="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" title="View Image Source"&gt;
+&lt;a href="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" title="View Image Source"&gt;
 <br>
   <br>
-&lt;img  src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe"&gt; 
+&lt;img  src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe"&gt; 
 <br>
 &lt;/a&gt;
 </p>
@@ -43,19 +43,19 @@
 <p>Notice that to add a new property to the style, we need to put a semi-colon after the previous property:value pair.</p>
 <p>So the full code for our image tag would now look like this:</p>
 <code> 
-&lt;img style="width:70%; border:1px solid green;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
+&lt;img style="width:70%; border:1px solid green;" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe" &gt;
 </code>
 
 <p>And the result is this:</p>
 <p>
-<a href="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" title="View Image Source">
-<img style="width:70%; border:1px solid green;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe"></a>
+<a href="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" title="View Image Source">
+<img style="width:70%; border:1px solid green;" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe"></a>
 </p>
 
 <h3>2.3: Centering an image on the page.</h3>
 <p style="margin-left:15%;">This time, the image is centred.</p>
-<a href="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" title="View Image Source">
-<img style="width:70%; border:1px solid green; margin-left:15%;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe"></a>
+<a href="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" title="View Image Source">
+<img style="width:70%; border:1px solid green; margin-left:15%;" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe"></a>
 <p>To centre the image, it's necessary to make a small calculation. In our example, this is as follows:</p>
 
 
@@ -80,7 +80,7 @@ right-hand margin width = 15%
 <p>The <code> margin-left </code> property specifies a distance of x between the left-hand edge of the image and the left-hand edge of the  content area - just like a margin on a paper page.</p> 
 <p>So, here is the modified image style code:</p>
 <code> 
-&lt;img style="width:70%; border:1px solid green; margin-left:15%;" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Europe_biogeography_countries.svg" alt="image of biogeography of Europe" &gt;
+&lt;img style="width:70%; border:1px solid green; margin-left:15%;" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe" &gt;
 </code>
 
 <p>Note: in the above example we don't need to specify a margin-right:15% because this is automatically computed by the browser. The browser computes the specified values of 15% + 70% = 85%, and then assigns the remaining 15% to the right-hand margin.</p>
