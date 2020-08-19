@@ -50,10 +50,10 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
   <li>Commit the changes to the scss file.</li>
   <li>Now go back to your HTML page, and change the img tag entry as follows: 
     
-<code> 
+<div class="codeblock">
 <span style="text-decoration:underline; color:#009922;"></span> 
 <img class="imgLeft" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe" &gt;
-</code>
+</div>
 </li>
   <li>Finally, commit the changes to the file and view the result.</li>
 </ol>
