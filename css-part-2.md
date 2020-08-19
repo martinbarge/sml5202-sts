@@ -66,16 +66,18 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
 <h3>2.3. Inserting the text around the image</h3>
 <p>The final thing we need to do is wrap a paragraph around our image tag and include the text we want to display next to the image. This is easy to do. In my example above, it looks like this:</p>
 <p>
-<div class="codeblock">
-  &lt;p&gt;<br> 
+<!--<div class="codeblock">-->
+```  
+ <p> 
   
-&lt;img class="imgLeft" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe" &gt;
+<img class="imgLeft" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe" >;
   <br>
   
 My paragraph of text goes here. After the image tag, but before the closing p tag.
 <br>
-  &lt;/p&gt;
-</div>
+  </p>
+
+```
   </p>
   
   <p>Notice in the above that I have put a &lt;p&gt; tag before the image tag, and a &lt;/p&gt; tag after the paragraph of text.</p>
