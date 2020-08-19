@@ -32,6 +32,7 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
 <div class="codeblock"> 
 &lt;img <span style="text-decoration:underline; color:#009922;">style="width:70%; border:1px solid green; float:left; margin: 0 10px 10px 0;"</span> src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe" &gt;
 </div>
+
 <p>As you can see, the style rule is becoming quite long and complex. This makes it more difficult to read, to detect errors, and is time-consuming to include in every image on your website that you wish to apply the style to.</p>
 <p>So this where an external style sheet proves indispensible.</p>
 
@@ -47,7 +48,9 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
   <li>Insert the following lines exactly as shown to the top of the style.scss file: <img src="assets/img/scss-file-1.png"></li>
   <li>Next, add the following code below the lines shown in the image above: <img src="assets/img/imgleft-code.png"></li>
   <li>Commit the changes to the scss file.</li>
-  <li>Now go back to your HTML page, and change the img tag entry as follows: <code> 
+  <li>Now go back to your HTML page, and change the img tag entry as follows: 
+    
+    <code> 
     &lt;img <span style="text-decoration:underline; color:#009922;">class="imgLeft"</span> src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe" &gt;
     </code></li>
   <li>Finally, commit the changes to the file and view the result.</li>
@@ -66,19 +69,15 @@ The map to the left shows the biogeography of Europe. Biogeography is the study 
 <h3>2.3. Inserting the text around the image</h3>
 <p>The final thing we need to do is wrap a paragraph around our image tag and include the text we want to display next to the image. This is easy to do. In my example above, it looks like this:</p>
 <p>
+  
 <!--<div class="codeblock">-->
-```  
- <p> 
-  
-<img class="imgLeft" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe" >;
-  <br>
-  
+ &lt;p&gt;   
+&lt;img class="imgLeft" src="https://upload.wikimedia.org/wikipedia/commons/6/66/Europe_biogeography_countries_en.svg" alt="image of biogeography of Europe" &gt;;
+  &lt;br&gt;
 My paragraph of text goes here. After the image tag, but before the closing p tag.
-<br>
-  </p>
+&lt;/p&gt;
+</div>
 
-```
-  </p>
   
   <p>Notice in the above that I have put a &lt;p&gt; tag before the image tag, and a &lt;/p&gt; tag after the paragraph of text.</p>
   
