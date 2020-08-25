@@ -27,7 +27,7 @@
 <hr>
 <h2>2. Adding external style sheets.</h2>
 <h3>2.1. About external style sheets</h3>
-<p>External style sheets are useful because they enable you to create a style rule once. You can then reference that style in your HTML tags and the browser will apply the style. This section shows you how to do this, using the image and text as an example.</p>
+<p>External style sheets are useful because they enable you to create a style rule once. You can then reference that style rule in your HTML tags and the browser will apply the style. This section shows you how to do this.</p>
 
 <h3>2.2. Setting up the style sheet and creating a rule</h3>
 <p>The first thing we need to do is set up the external stylesheet. An external stylesheet is simply a file containing the style rules you want your site to use. On a GitHub pages site, we have to create two new directories and the file, like this:</p>
@@ -46,7 +46,9 @@
   <li>Finally, commit the changes to the file and view the result.</li>
 </ol>
 
-<p>In the above steps, we created a style sheet named 'style.scss' [steps 1 & 2]. (Note: SCSS stands for 'sassy cascading style sheets', which is a style sheet language that uses the same syntax as CSS). We then took the style code from the image tag and created our own style rule named <code> .imgLeft </code>  [step 3]. The dot in front of the style rule name creates what is known as a <b>style class</b>. You can name style classes as you like, but it's best practice to use an accepted form. The form I've used here is called 'camel case' in which a capital letter is used to identify the second part of the class name (Left). This is a standard used in programming and scripting, but many developers prefer to use hypenated names (e.g. .img-left) for better readability. It's up to you. But <b>never</b> put spaces between your class names (e.g. .img left). This will not work. </p>
+<p>In the above steps, we created a style sheet named 'style.scss' [steps 1 & 2]. (Note: SCSS stands for 'sassy cascading style sheets', which is a style sheet language that uses the same syntax as CSS). </p>
+<p>We then took the style code from the image tag and created our own style rule named <code> .imgLeft </code>  [step 3].<br>
+<strong>Note:</strong> The dot in front of the style rule name creates what is known as a <b>style class</b>. You can name style classes as you like, but it's best practice to use an accepted form. The form I've used here is called 'camel case' in which a capital letter is used to identify the second part of the class name (Left). This is a standard used in programming and scripting, but many developers prefer to use hypenated names (e.g. .img-left) for better readability. It's up to you. But <b>never</b> put spaces between your class names (e.g. .img left). This will not work. </p>
 <p>The other important points to notice in the style code are this:</p>
 <ul>
   <li>The style rule is surrounded by curly brackets: <code> { } </code>.</li>
@@ -57,8 +59,8 @@
 <p>Finally, [step 5] we inserted <code> class="imgLeft" </code>  into our img tag to reference the style sheet rule. Notice that in the class declaration, we do not need to place the dot (.) before the name of the class in the HTML tag. We must use <code> class="" </code> instead.</p>
 
 <hr>
-<h2><a name="update">Update</a></h2>
-<p>I've been working on a neater way to position images and text side-by-side, with the added feature of adjusting to screen sizes</p>
+<h2><a name="update">Places images and text side-by-side </a></h2>
+<p>The following steps show you how to position an image and text side-by-side. This will adjust to varying device screen sizes.</p>
 <p>The code entries below can be pasted directly into your GitHub page</p>
 
 <h3>CSS Code</h3>
@@ -176,7 +178,6 @@
 
   <h2>3. Homework</h2>
   <p>If you haven't already created the style sheet and modified the image, please follow this tutorial and do so.</p>
-  <p>If you have already created the style sheet and formatted your image, then please modify the style rule in your style.scss file and set the image width to 50%.</p>
   <p>Then, go to the W3Schools website and check the following tutorials on using CSS</p>
 <ol>
   <li><a href="https://www.w3schools.com/css/css_syntax.asp">CSS Syntax</a></li>
