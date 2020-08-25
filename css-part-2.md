@@ -107,8 +107,7 @@
 <p>Next, paste this HTML code block into your page:</p>  
 <p>Note: You can change the image URL and text to whatever you want to present on your page:</p>
 
-````
-  
+````  
 <div class="row">
   <div class="column">
     <h2>Column 1</h2>
@@ -179,7 +178,7 @@
   <h2>3. Homework</h2>
   <p>If you haven't already created the style sheet and modified the image, please follow this tutorial and do so.</p>
   <p>Then, go to the W3Schools website and check the following tutorials on using CSS</p>
-<ol>
+  <ol>
   <li><a href="https://www.w3schools.com/css/css_syntax.asp">CSS Syntax</a></li>
   <li><a href="https://www.w3schools.com/css/css_float.asp">CSS Float</a></li>
   <li><a href="https://www.w3schools.com/css/css_margin.asp">CSS Margin</a></li>
