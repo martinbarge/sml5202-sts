@@ -64,9 +64,9 @@
 <p>The code entries below can be pasted directly into your GitHub page</p>
 
 <h3>CSS Code</h3>
-<p>First set up the style rules on one of your github pages. Do this by copying the code block below and pasting into your page:</p>
+<p>First set up the style rules on one of your github pages. Do this by copying the code block below and pasting into your 'style.scss' stylesheet file:</p>
 
-```<style>
+```
 * {
   box-sizing: border-box;
 }
@@ -100,7 +100,6 @@
     width: 100%;
   }
 }
-</style>
 ```
 
 
@@ -108,7 +107,9 @@
 <p>Next, paste this HTML code block into your page:</p>  
 <p>Note: You can change the image URL and text to whatever you want to present on your page:</p>
 
-```<div class="row">
+<div class="codeblock">
+  
+<div class="row">
   <div class="column">
     <h2>Column 1</h2>
     <p><img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Giraffe-solo_Koure-NIGER.jpg" /></p>
@@ -117,7 +118,8 @@
     <h2>Column 2</h2>
     <p>The West African giraffe (G. c. peralta) is endemic to south-western Niger.[24] This animal has a lighter pelage than other subspecies,[40]:322 with red lobe-shaped blotches that reach below the hocks. The ossicones are more erect than in other subspecies and males have well-developed median lumps.[33]:52–53 It is the most endangered subspecies within Giraffa, with 400 individuals remaining in the wild.[24] Giraffes in Cameroon were formerly believed to belong to this species, but are actually G. c. antiquorum.[32] This error resulted in some confusion over its status in zoos, but in 2007, it was established that all "G. c. peralta" kept in European zoos actually are G. c. antiquorum. The same 2007 study found that The West African giraffe was more closely related to the Rothschild's giraffe than the Kordofan and its ancestor may have migrated from eastern to northern Africa and then to its current range with the development of the Sahara Desert. At its largest, Lake Chad may have acted as a barrier between West African and Kordofan giraffes during the Holocene (before 5000 BC).[32]</p>
   </div>
-```
+  
+</div>
 
 <h3>Result</h3>
 <p>Your image and text should look something like this:</p>
