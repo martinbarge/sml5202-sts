@@ -59,7 +59,7 @@
 <p>Finally, [step 5] we inserted <code> class="imgLeft" </code>  into our img tag to reference the style sheet rule. Notice that in the class declaration, we do not need to place the dot (.) before the name of the class in the HTML tag. We must use <code> class="" </code> instead.</p>
 
 <hr>
-<h2><a name="update">Places images and text side-by-side </a></h2>
+<h2>3. Placing images and text side-by-side</h2>
 <p>The following steps show you how to position an image and text side-by-side. This will adjust to varying device screen sizes.</p>
 <p>The code entries below can be pasted directly into your GitHub page</p>
 
