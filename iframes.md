@@ -16,7 +16,11 @@
 }
 </style>
 
-
+<h1>Embedded Language Game</h1>
+<p>This is an example of two games for practising English-Spanish phrases.</p>
+<p>The language content of these games can be created by you, on the [Cram website](https://www.cram.com/), so try this out and if you like what you see, create a Cram account and make your own!</p>
+<p>There are two games types (matching items and a simple shooter game).</p>
+<p>Select the game type from the dropdown to try it:</p>
 <select name="" id="list" onclick="loadFrame()">
     <option value="shooter">Phrases Shooter Game</option>
     <option value="matching">Phrases matching game</option>
