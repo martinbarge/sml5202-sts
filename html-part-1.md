@@ -25,6 +25,13 @@
      <li><code style="font-size:1.1em;">&lt;u&gt; &lt;/u&gt;</code> for creating <u>underlined text</u>. It is generally used for indicating errors (e.g. <u>rong </u>spelling)</li>
     </ul>
 <hr>
+
+<h2>2. Superscript</h2>
+<p>To format a date, for example 7<sup>th</sup> October, we can make use of the superscript tag to place the 'th' at the top right of the number.</p>
+<p><b>Example:</b> My birthday is on the 25<sup>th</sup> May.</p>
+<p>To make the 'th' a superscript (i.e. half the size of the numbers 25 and floating at the top of the 5), simply place <code>&lt;sup&gt; ... &lt;/sup&gt;</code> around the 'th'</p>
+<hr>
+
 <h1>Section 3:</h1> 
 <h2>Making lists with HTML</h2>
 <p>You will notice that in Section 2 above, I used a bullet list to layout the points.</p>
