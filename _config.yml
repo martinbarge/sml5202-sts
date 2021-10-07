@@ -2,12 +2,12 @@ theme: jekyll-theme-cayman
 title: Learn HTML and More
 description: Simple steps to making a website
 github:
-  recipe: recipe.html #wait.html
+  recipe: #recipe.html wait.html
   html-1: html-part-1.html #wait.html
-  html-2: html-part-2.html #wait.html
-  css-1: css-part-1.html #wait.html
-  css-2: css-part-2.html #wait.html
-  css-3: css-part-3.html #wait.html
-  javascript: javascript.html
+  html-2: #html-part-2.html wait.html
+  css-1: #css-part-1.html wait.html
+  css-2: #css-part-2.html wait.html
+  css-3: #css-part-3.html wait.html
+  javascript: #javascript.html wait.html
   
 
