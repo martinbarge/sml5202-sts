@@ -13,8 +13,7 @@
 
 <hr>
 
-
-<h2>3. Description lists</h2>
+<h2>2. Description lists</h2>
 <p>Description lists are good for giving definitions</p>
 <dl>
   <dt>soliloquy</dt>
@@ -28,7 +27,7 @@
 <p>To get the code for this, <a href="https://www.w3schools.com/tags/tag_dl.asp">visit the W3Schools entry for description lists</a>.</p>
 
 <hr>
-<h2>4. Tables</h2>
+<h2>3. Tables</h2>
 <p>Tables are an orderly way to present information.</p>
 <p>Here is an example of a simple verb table:</p>
 <table>
@@ -67,7 +66,7 @@ So, in our two column table above, we would add:<br><code>&lt;tr&gt;&lt;td&gt; t
 
 <hr>
 
-<h2>5. Accented and Non-Latin Characters</h2>
+<h2>4. Accented and Non-Latin Characters</h2>
 <p>GitHub pages use the UTF-8 Character set. This means you can type accented letters directly into your page and it will display correctly</p>
 <p>Examples:</p>
 <ul>
