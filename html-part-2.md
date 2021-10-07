@@ -13,12 +13,6 @@
 
 <hr>
 
-<h2>2. Superscript</h2>
-<p>Now for something easier. The superscript tag is useful for formatting the date.</p>
-<p><b>Example:</b> My birthday is on the 25<sup>th</sup> of May 2001.</p>
-<p>To make the 'th' a superscript (i.e. half the size of the numbers 25 and floating at the top of the 5), simply place <code>&lt;sup&gt; ... &lt;/sup&gt;</code> around the 'th'</p>
-<hr>
-
 
 <h2>3. Description lists</h2>
 <p>Description lists are good for giving definitions</p>
