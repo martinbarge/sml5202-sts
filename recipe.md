@@ -1,5 +1,5 @@
 <h1>Quick hummus recipe</h1>
-
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Hummus_Dip_%2830863436677%29.jpg" alt="A tasty-looking bowl of hummus" />
 <p>This recipe makes quick, tasty hummus, with no messing. It has been adapted from a number of different recipes that I have read over the years.</p>
 
 <p>Hummus is a delicious thick paste used heavily in Greek and Middle Eastern dishes. It is very tasty with salad, grilled meats and pitta breads.</p>
