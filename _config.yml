@@ -1,9 +1,8 @@
 theme: jekyll-theme-cayman
 title: Learn HTML and More
 description: Simple steps to making a website
-twitter:
-  card: "Twitter summary"
-  username: "Bargem"
+gems:
+  - jekyll-seo-tag
 github:
   recipe: wait.html #recipe.html 
   html-1: html-part-1.html #wait.html
