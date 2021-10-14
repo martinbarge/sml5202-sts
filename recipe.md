@@ -1,5 +1,6 @@
 <h1>Quick hummus recipe</h1>
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Hummus_Dip_%2830863436677%29.jpg" alt="A tasty-looking bowl of hummus" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Hummus_Dip_%2830863436677%29.jpg" alt="A tasty-looking bowl of hummus" style="width: 66%;" />
+
 <a href="https://commons.wikimedia.org/wiki/File:Hummus_Dip_(30863436677).jpg">Ella Olsson from Stockholm, Sweden</a>, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, via Wikimedia Commons.
 
 
